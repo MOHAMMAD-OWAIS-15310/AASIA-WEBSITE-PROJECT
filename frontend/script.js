@@ -13,7 +13,14 @@ paintings.forEach(p => {
                 <div class="b">COST - ${p.price} RS</div>
                 <div class="c">SIZE - ${p.size}</div>
                 <div class="e">MEDIUM - ${p.medium.toUpperCase()}</div>
-                <div class="f">PAPER THICKNESS - ${p.Paper_Thickness} GSM</div>
+                <div class="f">
+                    AVAILABLE ? 
+                    <span class="${p.Available === 'YES' ? 'available-yes' : 'available-no'}">
+                        ${p.Available}
+                    </span>
+                </div>
+
+                
                 <div class="d">
                     <button class="de">Buy Now</button>
                     <button class="de">Add to Cart</button>
