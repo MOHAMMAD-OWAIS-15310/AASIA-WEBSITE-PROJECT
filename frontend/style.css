@@ -107,7 +107,7 @@ a:hover img {
     line-height: 0.5;
 }
 .y{
-    font-size: 17px;
+    font-size: 16px;
     color: rgb(0, 0, 0);
     /* justify-content: center; */
     text-align: center;
@@ -206,13 +206,13 @@ button:hover{
 .b{
     font-size: 20px;
 }
-head{
+/* head{
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Jersey+15&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-}
+} */
 .ins:hover{
     color: rgb(8, 41, 88);
     background-color: white;
@@ -226,7 +226,91 @@ head{
     text-align: center;
 }
 .contact_header{
-    background-color: rgb(144, 171, 139);
+    background-color: rgb(118, 144, 114);
+}
+
+/* login page */
+.signup-container {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+}
+
+.signup-container h2 {
+    font-size: 28px;
+    margin-bottom: 25px;
+    color: #222;
+    letter-spacing: 1px;
+}
+
+/* Form box */
+.signup-form {
+    width: 100%;
+    max-width: 380px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+/* Labels */
+.signup-form label {
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Inputs */
+.signup-form input {
+    padding: 10px 12px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    outline: none;
+}
+
+.signup-form input:focus {
+    border-color: #000;
+}
+
+/* Sign Up Button */
+.btn-signup {
+    padding: 12px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+}
+
+.btn-signup:hover {
+    background-color: #333;
+}
+
+/* Login link */
+.login-link {
+    margin-top: 18px;
+    font-size: 14px;
+    color: #444;
+}
+
+.login-link a {
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
 }
 
 
@@ -436,11 +520,7 @@ button:hover{
 .b{
     font-size: 20px;
 }
-head{
-    
-@import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-}
 .ins:hover{
     color: rgb(8, 41, 88);
     background-color: white;

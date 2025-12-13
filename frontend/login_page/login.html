@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aasia website</title>
    
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
    
 </head>
 
@@ -26,16 +26,16 @@
 
             <ul class="z z6">
                 <!-- <li class="x">home</li> -->
-                <a href="index1.html">
+                <a href="../index1.html">
                     <li class="x">Home</li>
                 </a>
-                <a href="about/about.html">
+                <a href="../about/about.html">
                     <li class="x">About</li>
                 </a>
                 <a href="https://www.instagram.com/1brush.in.motion">
                     <li class="x">Instagram</li>
                 </a>
-                <a href="contact/Contact.html">
+                <a href="../contact/Contact.html">
                     <li class="x">Contact</li>
                 </a>
                 
@@ -44,9 +44,9 @@
                     <li class="x">Cart</li>&nbsp;
                 </a>
                 <img class="cart" src="img_folder/cart_img.png" alt="cart logo" height="15px"> &nbsp; -->
-                <a href="cart/cart.html" class="cartbox">
+                <a href="../cart/cart.html" class="cartbox">
                     <span class="icon">0</span> <br>
-                    <img class="cart" src="img_folder/cart_img.png" alt="cart logo" height="15px">
+                    <img class="cart" src="../img_folder/cart_img.png" alt="cart logo" height="15px">
                 </a>
 
             </ul>
@@ -66,11 +66,26 @@
 
     </header>
 
-    <div class="container">
 
-        <div id="cards-container"></div>
+    <main class="signup-container">
+        <h2>Login to Your Account</h2>
 
-    </div>
+        <form class="signup-form" action="#" method="POST">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+            <button type="submit" class="btn-signup">Log In</button>
+        </form>
+
+        <p class="login-link">
+            Don't have an account?
+            <a href="signup.html">Sign up</a>
+        </p>
+    </main>
+
     
     <footer>
         <div class="foot">

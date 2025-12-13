@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aasia website</title>
-   
-    <link rel="stylesheet" href="style.css">
-   
+
+    <link rel="stylesheet" href="../style.css">
+
 </head>
 
 <body>
@@ -26,27 +26,27 @@
 
             <ul class="z z6">
                 <!-- <li class="x">home</li> -->
-                <a href="index1.html">
+                <a href="../index1.html">
                     <li class="x">Home</li>
                 </a>
-                <a href="about/about.html">
+                <a href="../about/about.html">
                     <li class="x">About</li>
                 </a>
                 <a href="https://www.instagram.com/1brush.in.motion">
                     <li class="x">Instagram</li>
                 </a>
-                <a href="contact/Contact.html">
+                <a href="../contact/Contact.html">
                     <li class="x">Contact</li>
                 </a>
-                
-                
+
+
                 <!-- <a href="addToCart.html">
                     <li class="x">Cart</li>&nbsp;
                 </a>
                 <img class="cart" src="img_folder/cart_img.png" alt="cart logo" height="15px"> &nbsp; -->
-                <a href="cart/cart.html" class="cartbox">
+                <a href="../cart/cart.html" class="cartbox">
                     <span class="icon">0</span> <br>
-                    <img class="cart" src="img_folder/cart_img.png" alt="cart logo" height="15px">
+                    <img class="cart" src="../img_folder/cart_img.png" alt="cart logo" height="15px">
                 </a>
 
             </ul>
@@ -61,20 +61,47 @@
                 </a>
             </ul>
         </nav>
-        
+
 
 
     </header>
 
-    <div class="container">
+    <main class="signup-container">
+        <h2>Create Your Account</h2>
 
-        <div id="cards-container"></div>
 
-    </div>
-    
+        <form class="signup-form" action="#" method="POST">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Create a password" required>
+
+
+            <label for="confirm">Confirm Password</label>
+            <input type="password" id="confirm" name="confirm" placeholder="Confirm your password" required>
+
+
+            <button type="submit" class="btn-signup">Sign Up</button>
+        </form>
+
+
+        <p class="login-link">Already have an account?
+            <a href="login.html">Log in</a>
+        </p>
+    </main>
+
+
+
     <footer>
         <div class="foot">
-            <p>Contact us: <a href="https://www.instagram.com/1brush.in.motion" target="_blank" class="ins" >instagramlink</a> | Follow us on social media</p>
+            <p>Contact us: <a href="https://www.instagram.com/1brush.in.motion" target="_blank"
+                    class="ins">instagramlink</a> | Follow us on social media</p>
             <p>&copy; 2025 YourWebsite. All rights reserved.</p>
         </div>
         <div class="rta">

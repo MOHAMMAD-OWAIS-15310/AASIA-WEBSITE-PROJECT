@@ -7,7 +7,9 @@ paintings.forEach(p => {
     const card = `
         <main>
             <div class="parent">
-                <img src="${p.image}" alt="" height="200px" class="g">
+                <a href="one_img.html">
+                <img src="${p.image}" alt="" height="200px" class="g" >
+                </a>
                 <div class="b">COST - ${p.price} RS</div>
                 <div class="c">SIZE - ${p.size}</div>
                 <div class="e">MEDIUM - ${p.medium.toUpperCase()}</div>
