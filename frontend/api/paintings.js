@@ -14,7 +14,7 @@ export const paintings = [
         "size":"10/5",
         "medium":"gouche",
         // "Paper_Thickness":300,
-        "Available":"YES",
+        "Available":"NO",
         "image":"img_folder/img2.jpg"
     },
     {

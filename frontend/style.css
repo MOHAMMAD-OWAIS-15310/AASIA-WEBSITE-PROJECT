@@ -326,6 +326,12 @@ button:hover{
     text-decoration: underline;
 }
 
+/* cart */
+.cart_heading{
+    text-align: center;
+    font-size: 28px;
+}
+
 
 
 /* ===================== Desktop Layout ===================== */
