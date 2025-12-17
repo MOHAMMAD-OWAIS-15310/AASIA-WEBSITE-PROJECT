@@ -164,20 +164,32 @@ li{
     text-align: center;
     margin: 4px;
 }
+
 .de{
     font-family: cursive;
     font-size:25px ;
-    color: rgb(157, 105, 133);
+    color: rgb(105, 30, 66);
     background-color: rgb(234, 219, 232);
     padding: 4px;
 
+}
+.de.notify{
+    background-color: rgb(235, 204, 175);
+    color: rgb(59, 8, 8);
 }
 button{
     border: 1px solid rgb(255, 255, 255);
     border-radius: 11px;
 }
-button:hover{
-    background-color: rgb(187, 124, 167);
+.de:hover{
+    color: white;
+    /* background-color: rgb(164, 134, 154); */
+    background-color: rgb(87, 6, 65);
+    
+}
+.de.notify:hover{
+    background-color: rgb(242, 198, 115);
+    color: black;
 }
 .p{
     border: 2px solid red;
@@ -504,7 +516,7 @@ li{
 .de{
     font-family: cursive;
     font-size:25px ;
-    color: rgb(157, 105, 133);
+    color: rgb(105, 30, 66);
     background-color: rgb(234, 219, 232);
     padding: 4px;
 
