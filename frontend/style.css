@@ -36,6 +36,7 @@ header{
     /* background-color: rgb(115, 79, 35); */
     /* background-image: linear-gradient(to top, rgba(56, 81, 14, 0.989),rgb(205, 224, 194)); */
     background-image: linear-gradient(to top, rgb(108, 92, 71),rgb(163, 155, 145));
+    /* background-color:  rgb(177, 126, 190); */
     /* height: 7.5vh; */
     position: sticky;
     top: 0px;
@@ -347,7 +348,32 @@ button{
     font-size: 28px;
 }
 
+/* one img */
+.full-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background: black;
+    margin: 10px;
+}
 
+.full-image-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+/* close button */
+.close-btn{
+    font-weight: bolder;
+     padding-left: 50vw  ;
+    color: black;
+}
+.close-btn:hover{
+    color: rgb(200, 10, 10);
+    
+}
 
 /* ===================== Desktop Layout ===================== */
 @media (min-width: 768px) {

@@ -36,7 +36,7 @@ export const paintings = [
         "image":"img_folder/img4.jpg"
     },
     {
-        "id":4,
+        "id":5,
         "price":150 ,
         "size":"10/5",
         "medium":"gouche",
@@ -45,7 +45,7 @@ export const paintings = [
         "image":"img_folder/img5.jpg"
     },
     {
-        "id":4,
+        "id":6,
         "price":250 ,
         "size":"10/5",
         "medium":"gouche",
@@ -55,7 +55,7 @@ export const paintings = [
     },
     
     {
-        "id":4,
+        "id":7,
         "price":100 ,
         "size":"10/5",
         "medium":"gouche",
@@ -64,7 +64,7 @@ export const paintings = [
         "image":"img_folder/img8.jpg"
     },
     {
-        "id":4,
+        "id":8,
         "price":120 ,
         "size":"10/5",
         "medium":"gouche",
@@ -73,7 +73,7 @@ export const paintings = [
         "image":"img_folder/img9.jpg"
     },
     {
-        "id":4,
+        "id":9,
         "price":170 ,
         "size":"10/5",
         "medium":"gouche",

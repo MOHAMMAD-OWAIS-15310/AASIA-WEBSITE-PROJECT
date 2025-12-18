@@ -1,9 +1,9 @@
 import { paintings } from "./api/paintings.js";
 console.log(paintings);
 
-const container = document.getElementById("cards-container");
+// const container = document.getElementById("cards-container");
 
-// paintings.forEach(p => {
+// for(let p of paintings){
 //     const card = `
 //         <main>
 //             <div class="parent">
@@ -19,27 +19,33 @@ const container = document.getElementById("cards-container");
 //                         ${p.Available}
 //                     </span>
 //                 </div>
-
-                
-//                 <div class="d">
-//                     <button class="de">Buy Now</button>
-//                     <button class="de">Add to Cart</button>
+//                    <div class="d">
+//                     ${
+//                         p.Available === "YES"
+//                         ? `
+//                             <button class="de">Buy Now</button>
+//                             <button class="de">Add to Cart</button>
+//                           `
+//                         : `
+//                             <button class="de notify">Notify Me</button>
+//                           `
+//                     }
 //                 </div>
-//             </div>
+//                 </div>
 //         </main>
 //     `;
 
 //     container.innerHTML += card;
-// });
+// };
 
 
-
+const container = document.getElementById("cards-container");
 
 for(let p of paintings){
     const card = `
         <main>
             <div class="parent">
-                <a href="one_img.html">
+                <a href="one_img.html?img=${encodeURIComponent(p.image)}">
                 <img src="${p.image}" alt="" height="200px" class="g" >
                 </a>
                 <div class="b">COST - ${p.price} RS</div>
@@ -51,7 +57,6 @@ for(let p of paintings){
                         ${p.Available}
                     </span>
                 </div>
-                <div class="d">
                    <div class="d">
                     ${
                         p.Available === "YES"
@@ -65,9 +70,6 @@ for(let p of paintings){
                     }
                 </div>
                 </div>
-
-                
-            </div>
         </main>
     `;
 

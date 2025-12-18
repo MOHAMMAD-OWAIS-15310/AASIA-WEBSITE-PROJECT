@@ -11,7 +11,6 @@
 </head>
 
 <body>
-
     <header>
         <!-- <div class="poi">
             <h1 class="a">AASIA ARTS STORE</h1>
@@ -67,8 +66,9 @@
     </header>
     
 
-    <div class="container">
-        <div id="painting-detail"></div>
+    <a href="index1.html" class="close-btn">✖</a>
+    <div class="full-image-container">
+        <img id="fullImage" alt="Painting">
     </div>
    
 
@@ -86,7 +86,14 @@
         </div>
     </footer>
 
-    <script type="module" src="script.js"></script>
+<script>
+    const params = new URLSearchParams(window.location.search);
+    const img = params.get("img");
+
+    if(img){
+        document.getElementById("fullImage").src = img;
+    }
+</script>
 </body>
 
 </html>
